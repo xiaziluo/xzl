@@ -1,0 +1,195 @@
+/*
+ * 当前项目需要放到手机端展示，为了能够适配更多的手机型号
+ *    1. 我们参考的案例或者设计稿应该是750PX宽度的
+ *    2. 我们需要把测量出来的尺寸全部改为REM单位（例如：测量出来的尺寸是350px，我们样式写成3.5rem），在原有值基础上除以100即可实现PX和REM的转换 =>“REM响应式布局的原理”
+ */
+/* PAGE1的样式 */
+.page1 {
+	background: url('../image/感谢有你\ 背景.png') no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+.page1 img:nth-of-type(1) {
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 3.84rem;
+	height: 4.33rem;
+}
+
+.page1 img:nth-of-type(2) {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 3.84rem;
+	height: 3.33rem;
+}
+
+.page1 img:nth-of-type(3) {
+	position: absolute;
+	left: 1.3rem;
+	top: 1.8rem;
+	width: 5rem;
+	height: 4rem;
+}
+
+.page1 img:nth-of-type(4) {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 3.5rem;
+	height: 6rem;
+}
+
+.page1 img:nth-of-type(5) {
+	position: absolute;
+	top: .5rem;
+	left: .4rem;
+	width: 2rem;
+	height: 2rem;
+}
+
+.one {
+	position: absolute;
+	left: 1.5rem;
+	top: 3rem;
+}
+
+.one span {
+	display: block;
+	font-size: 0.8rem;
+	line-height: 0.9rem;
+	text-align: center;
+	color: blanchedalmond;
+}
+
+/* 第二页 */
+.page2 {
+	background: url('../image/背景.png') no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+.page2 img:nth-of-type(1) {
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 3.84rem;
+	height: 4.33rem;
+}
+
+.page2 img:nth-of-type(2) {
+	position: absolute;
+	bottom: 0;
+	width: 7.5rem;
+	height: 3rem;
+}
+.page2 img:nth-of-type(3) {
+	position: absolute;
+	left: 0;
+	top: .5rem;
+	width: 2rem;
+	height: 1.5rem;
+}
+.page2 img:nth-of-type(4) {
+	position: absolute;
+	top:4.5rem;
+	right: 3rem;
+	width: 3.22rem;
+	height: 3.21rem;;
+}
+.page2 .text {
+	position: absolute;
+	left: .8rem;
+	top: 2rem;
+	width: 3.6rem;
+}
+
+.page2 .text p {
+	line-height: .64rem;
+	font-size: .5rem;
+	color: mintcream;
+	font-family: '宋体'；
+}
+.page3 {
+	background: url('../image/白色背景板.png') no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+.page3 img:nth-of-type(1) {
+	position: absolute;
+	left: 0;
+	height: 7.21rem;
+	width: 6.23rem;
+}
+
+.page3 img:nth-of-type(2) {
+	position: absolute;
+	right: 0;
+	width: 2.23rem;
+	height: 3.21;
+}
+.page3 img:nth-of-type(3) {
+	position: absolute;
+	left: 0;
+	bottom: 30%;
+	right: 0;
+	width: .8rem;
+	height: 1rem;
+}
+.page3 img:nth-of-type(4) {
+	position: absolute;
+	right: 0;
+	bottom: 30%;
+	width: 3.2rem;
+	height: 4rem;
+}
+.page3 img:nth-of-type(5) {
+	position: absolute;
+	bottom: 0;
+	width: 7.5rem;
+	height: 3.5rem;
+}
+.page4 {
+	background: url('../image/白色背景板.png') no-repeat;
+	background-size: cover;
+	position: relative;
+}
+.page4 img:nth-of-type(1) {
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0rem;
+	width: 7.5rem;
+	height: 10.33rem;
+}
+.page4 img:nth-of-type(2) {
+	position: absolute;
+	right: .5rem;
+	bottom: .5rem;
+	width: .5rem;
+	height: .8rem;
+}
+.page4 img:nth-of-type(3) {
+	position: absolute;
+	right: 1rem;
+	bottom: 30%;
+	width: 3.22rem;
+	height: 3.7rem;
+}
+.page4 img:nth-of-type(4) {
+	position: absolute;
+	left:50%;
+	bottom: 5%;
+	width: 1.22rem;
+	height: 2.12rem;
+}
+.page4 img:nth-of-type(5) {
+	position: absolute;
+	top: 3.7rem;
+	left: 2.3rem;
+	width: 3rem;
+	height: 2rem;
+}

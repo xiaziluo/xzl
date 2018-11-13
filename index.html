@@ -1,0 +1,73 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>世界很大，我的心愿很小</title>
+
+	<!-- IMPORT CSS -->
+	<link rel="stylesheet" href="css/zhufengAnimate.min.css">
+	<link rel="stylesheet" href="css/index.css">
+
+	<!-- IMPORT JS -->
+	<script src="js/zhufengAnimate.min.js"></script>
+</head>
+
+<body>
+	<main class="mainBox" music="audio/girl.mp3">
+		<!-- 第一页 -->
+		<div class="page1">
+			<!-- 想让哪个元素有动画效果，只需要给元素设置AN属性，属性值是animate.min.css动画库中相关动画的播放（操作是在框架中实现的） -->
+			<img src="image/右上 装饰.png" alt="" AN="bounceInRight 1s both">
+			<img src="image/左下.装饰.png" alt="" AN="bounceInUp 1s both">
+			<img src="image/中心边框.png" alt="" AN="rubberBand 1s 1.5s both">
+			<img src="image/边框右下.png" alt="" AN="wobble 1s .5s both">
+			<img src="image/装饰。花朵.png" alt="" AN="flash 1s 1.5s both">
+		<div class="one">	
+			<span AN="bounceInDown 1s 1.5s both">世界很大</span>
+			<span AN="bounceInUp 1s 1s both">我的心愿很小</span>
+		</div>
+	</div>
+
+		<!-- 第二页 -->
+		<div class="page2">
+			<img src="image/右上 装饰.png" alt="" AN="zoomIn 1s both">
+			<img src="image/page4 小孩子.png" alt="" AN="zoomIn 1s 1s both">
+			<img src="image/装饰.蝴蝶.png" alt="" AN="zoomIn 1s 1s both">
+			<img src="image/装饰.花朵1.png" alt="" AN="zoomIn 1s 2s both">
+			<div class="text">
+				<p AN="bounceInDown 1s  1.5s both">世界很大</p>
+				<p AN="bounceInRight 1s 1s both">绽放自己的光彩</p>
+				<p AN="bounceInLeft 1s 2s both">不止于眼前</p>
+				<p AN="bounceInRight 1s 2.5s both">还有诗和远方！</p>
+			</div>
+		</div>
+
+		<!-- 第三页 -->
+		<div class="page3">
+			<img src="image/人物.png" alt="" AN="slideInDown 0.5s 1s both" >
+			<img src="image/顶部装饰 云朵.png" alt="" AN="slideInLeft 1s 1s both">
+			<img src="image/玫瑰花.png" alt="" AN="bounceIn 0s 1s both">
+			<img src="image/诗和远方.png" alt="" AN="bounceInRight  1s both">
+			<img src="image/绿色草地.png" alt="" AN="bounceInDown  1s both">
+		</div>
+
+		<!-- 第四页 -->
+		<div class="page4">
+			<img src="image/page4 大树.png" alt="" AN="bounceIn 1s both">
+			<img src="image/底部装饰 绿叶子.png" alt="" AN="bounceInRight  1s 0.5s both">
+			<img src="image/page4 叶子.png" alt="" AN="bounceInDown  1s 1s both">
+			<img src="image/page4 蒲公英.png" alt="" AN="bounceInDown  1s 1.5s both">
+			<img src="image/青春.png" alt="" AN="bounceInDown  1s 1.5s both">
+		</div>
+	</main>
+</body>
+
+</html>
+<!-- 
+	我们是基于ZHUFENG-ANIMATE滑屏框架来实现项目的
+		1.首先导入zhufengAnimate.min.css/.min.js
+		2.把所有构建的页面屏幕写在.MAIN-BOX样式类中，每一个页面就是一个DIV，设置对应的PAGE-N样式
+ -->
